@@ -2,37 +2,36 @@ graph mi_grafo {
 	a
 	c
 	a -- c
-	f
-	a -- f
+	g
+	a -- g
 	n
 	c -- n
-	j
-	c -- j
-	j -- f
-	d
-	n -- d
-	j -- n
+	k
+	c -- k
+	n -- g
+	q
+	k -- q
+	r
+	k -- r
+	n -- r
 	a [color=red]
 	c [color=red]
 	n [color=red]
-	d [color=red]
+	r [color=red]
 	a [color=black]
 	c [color=black]
 	n [color=black]
-	d [color=black]
+	r [color=black]
 	a [color=blue]
 	c [color=blue]
-	j [color=blue]
-	n [color=blue]
-	d [color=blue]
+	k [color=blue]
+	r [color=blue]
 	a [color=black]
 	c [color=black]
-	j [color=black]
-	n [color=black]
-	d [color=black]
-	a [color=yellow]
-	f [color=yellow]
-	j [color=yellow]
-	n [color=yellow]
-	d [color=yellow]
+	k [color=black]
+	r [color=black]
+	a [color=cyan]
+	g [color=cyan]
+	n [color=cyan]
+	r [color=cyan]
 }
