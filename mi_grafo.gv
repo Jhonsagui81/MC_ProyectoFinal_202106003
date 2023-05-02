@@ -1,0 +1,38 @@
+graph mi_grafo {
+	a
+	c
+	a -- c
+	f
+	a -- f
+	n
+	c -- n
+	j
+	c -- j
+	j -- f
+	d
+	n -- d
+	j -- n
+	a [color=red]
+	c [color=red]
+	n [color=red]
+	d [color=red]
+	a [color=black]
+	c [color=black]
+	n [color=black]
+	d [color=black]
+	a [color=blue]
+	c [color=blue]
+	j [color=blue]
+	n [color=blue]
+	d [color=blue]
+	a [color=black]
+	c [color=black]
+	j [color=black]
+	n [color=black]
+	d [color=black]
+	a [color=yellow]
+	f [color=yellow]
+	j [color=yellow]
+	n [color=yellow]
+	d [color=yellow]
+}
